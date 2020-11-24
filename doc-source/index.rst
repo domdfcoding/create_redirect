@@ -17,7 +17,7 @@ create_redirect
 	* - Docs
 	  - |docs| |docs_check|
 	* - Tests
-	  - |travis| |actions_windows| |actions_macos| |codefactor|
+	  - |travis| |actions_windows| |actions_macos| |codefactor| |pre_commit_ci|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
@@ -33,17 +33,17 @@ create_redirect
 	:workflow: Docs Check
 	:alt: Docs Check Status
 
-.. |travis| travis-shield::
-	:travis-site: com
-	:alt: Travis Build Status
+.. |travis| actions-shield::
+	:workflow: Linux Tests
+	:alt: Linux Test Status
 
 .. |actions_windows| actions-shield::
 	:workflow: Windows Tests
-	:alt: Windows Tests Status
+	:alt: Windows Test Status
 
 .. |actions_macos| actions-shield::
 	:workflow: macOS Tests
-	:alt: macOS Tests Status
+	:alt: macOS Test Status
 
 .. |requires| requires-io-shield::
 	:alt: Requirements Status
@@ -92,6 +92,9 @@ create_redirect
 
 .. |pre_commit| pre-commit-shield::
 	:alt: pre-commit
+
+.. |pre_commit_ci| pre-commit-ci-shield::
+	:alt: pre-commit.ci status
 
 .. end shields
 

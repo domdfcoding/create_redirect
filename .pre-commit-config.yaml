@@ -1,31 +1,35 @@
 # This file is managed by 'repo_helper'. Don't edit it directly.
 ---
 
+exclude: ^$
+
 repos:
  - repo: https://github.com/pre-commit/pre-commit-hooks
    rev: v3.3.0
    hooks:
     - id: check-added-large-files
     - id: check-ast
+    - id: fix-byte-order-marker
     - id: check-byte-order-marker
     - id: check-case-conflict
     - id: check-executables-have-shebangs
     - id: check-json
+    - id: check-toml
+    - id: check-yaml
     - id: check-merge-conflict
     - id: check-symlinks
-    - id: check-toml
     - id: check-vcs-permalinks
-    - id: check-yaml
     - id: detect-private-key
-    - id: end-of-file-fixer
     - id: trailing-whitespace
     - id: mixed-line-ending
+    - id: end-of-file-fixer
 
  - repo: https://github.com/domdfcoding/pre-commit-hooks
    rev: v0.1.6
    hooks:
     - id: requirements-txt-sorter
-      args: [--allow-git]
+      args:
+       - --allow-git
     - id: check-docstring-first
       exclude: ^(doc-source/conf|__pkginfo__|make_conda_recipe|setup|tests/.*)\.py$
     - id: bind-requirements
@@ -45,7 +49,8 @@ repos:
    rev: v2.7.4
    hooks:
     - id: pyupgrade
-      args: [--py36-plus]
+      args:
+       - --py36-plus
 
  - repo: https://github.com/Lucas-C/pre-commit-hooks
    rev: v1.1.9
@@ -53,9 +58,17 @@ repos:
     - id: remove-crlf
     - id: forbid-crlf
 
-
  - repo: https://github.com/domdfcoding/yapf-isort
-   rev: v0.5.2
+   rev: v0.5.4
    hooks:
     - id: yapf-isort
       exclude: ^(doc-source/conf|__pkginfo__|make_conda_recipe|setup)\.py$
+
+ - repo: https://github.com/domdfcoding/dep_checker
+   rev: v0.4.1
+   hooks:
+    - id: dep_checker
+      args:
+       - create_redirect
+
+# Custom hooks can be added below this comment

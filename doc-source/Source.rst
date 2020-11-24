@@ -3,7 +3,7 @@ Downloading source code
 =========================
 
 The ``create_redirect`` source code is available on GitHub,
-and can be accessed from the following URL: https://github.com/domdfcoding/create_redirect"
+and can be accessed from the following URL: https://github.com/domdfcoding/create_redirect
 
 If you have ``git`` installed, you can clone the repository with the following command:
 

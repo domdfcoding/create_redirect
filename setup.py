@@ -13,7 +13,7 @@ sys.path.append('.')
 from __pkginfo__ import *  # pylint: disable=wildcard-import
 
 setup(
-		description='Python script for creating HTML redirects',
+		description="Python script for creating HTML redirects",
 		extras_require=extras_require,
 		install_requires=install_requires,
 		py_modules=[],
