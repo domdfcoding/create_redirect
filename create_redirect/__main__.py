@@ -34,7 +34,7 @@ __all__ = ["main"]
 from textwrap import dedent
 
 
-def main() -> int:
+def main() -> int:  # noqa: D103
 	parser = argparse.ArgumentParser(description="Generate HTML Redirect File.")
 	parser.add_argument("redirect_url", help="The URL to redirect to")
 	parser.add_argument(
