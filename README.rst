@@ -24,7 +24,7 @@ create_redirect
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
-	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
+	  - |codefactor| |actions_flake8| |actions_mypy|
 	* - Other
 	  - |license| |language| |requires|
 
@@ -101,10 +101,6 @@ create_redirect
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/create_redirect
 	:target: https://pypi.org/project/create_redirect/
 	:alt: PyPI - Downloads
-
-.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/create_redirect/master.svg
-	:target: https://results.pre-commit.ci/latest/github/domdfcoding/create_redirect/master
-	:alt: pre-commit.ci status
 
 .. end shields
 
