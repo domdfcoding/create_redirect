@@ -5,6 +5,7 @@ create_redirect
 .. start short_desc
 
 .. documentation-summary::
+	:meta:
 
 .. end short_desc
 
@@ -57,7 +58,8 @@ create_redirect
 		:workflow: mypy
 		:alt: mypy status
 
-	.. |requires| requires-io-shield::
+	.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/create_redirect/badge.svg
+		:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/create_redirect/
 		:alt: Requirements Status
 
 	.. |codefactor| codefactor-shield::
@@ -99,7 +101,7 @@ create_redirect
 		:last-commit:
 		:alt: GitHub last commit
 
-	.. |maintained| maintained-shield:: 2021
+	.. |maintained| maintained-shield:: 2022
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
@@ -142,6 +144,12 @@ Once installed, ``create_redirect`` can be run with the following syntax:
 
 	contributing
 	Source
+
+.. sidebar-links::
+	:caption: Links
+	:github:
+	:pypi: create_redirect
+
 
 .. start links
 
