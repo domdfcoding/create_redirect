@@ -7,9 +7,8 @@ name = "create_redirect"
 version = "0.1.3"
 description = "Python script for creating HTML redirects."
 readme = "README.rst"
-keywords = []
-dynamic = [ "dependencies",]
 requires-python = ">=3.6.1"
+keywords = []
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -26,6 +25,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Text Processing :: Markup :: HTML",
 ]
+dynamic = [ "dependencies",]
 
 [[project.authors]]
 name = "Dominic Davis-Foster"
