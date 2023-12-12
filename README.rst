@@ -28,8 +28,8 @@ create_redirect
 	* - Other
 	  - |license| |language| |requires|
 
-.. |docs| image:: https://img.shields.io/readthedocs/create_redirect/latest?logo=read-the-docs
-	:target: https://create_redirect.readthedocs.io/en/latest
+.. |docs| image:: https://img.shields.io/readthedocs/create-redirect/latest?logo=read-the-docs
+	:target: https://create-redirect.readthedocs.io/en/latest
 	:alt: Documentation Build Status
 
 .. |docs_check| image:: https://github.com/domdfcoding/create_redirect/workflows/Docs%20Check/badge.svg
@@ -95,7 +95,7 @@ create_redirect
 	:target: https://github.com/domdfcoding/create_redirect/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2022
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2023
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/create_redirect

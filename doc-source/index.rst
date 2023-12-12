@@ -31,7 +31,7 @@ create_redirect
 		  - |license| |language| |requires|
 
 	.. |docs| rtfd-shield::
-		:project: create_redirect
+		:project: create-redirect
 		:alt: Documentation Build Status
 
 	.. |docs_check| actions-shield::
@@ -101,7 +101,7 @@ create_redirect
 		:last-commit:
 		:alt: GitHub last commit
 
-	.. |maintained| maintained-shield:: 2022
+	.. |maintained| maintained-shield:: 2023
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
