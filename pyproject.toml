@@ -20,8 +20,10 @@ classifiers = [
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: Implementation :: CPython",
-    "Programming Language :: Python :: Implementation :: PyPy",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Text Processing :: Markup :: HTML",
 ]
@@ -52,7 +54,7 @@ github_username = "domdfcoding"
 github_repository = "create_redirect"
 author = "Dominic Davis-Foster"
 project = "create-redirect"
-copyright = "2015, 2019-2020 Dominic Davis-Foster"
+copyright = "2015, 2019-2020, 2023 Dominic Davis-Foster"
 language = "en"
 package_root = "create_redirect"
 extensions = [
@@ -138,7 +140,7 @@ base-classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Text Processing :: Markup :: HTML",
 ]
-python-versions = [ "3.6", "3.7", "3.8", "3.9",]
+python-versions = [ "3.6", "3.7", "3.8", "3.9", "3.10", "3.11", "3.12",]
 python-implementations = [ "CPython",]
 platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
@@ -159,6 +161,10 @@ order = 10
 
 [tool.dependency-dash."doc-source/requirements.txt"]
 order = 30
+include = false
+
+[tool.dependency-dash."tests/requirements.txt"]
+order = 20
 include = false
 
 [tool.snippet-fmt.languages.python]

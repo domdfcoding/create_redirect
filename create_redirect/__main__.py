@@ -34,9 +34,11 @@ Generate HTML Redirect File.
 import argparse
 import pathlib
 import sys
-from textwrap import dedent
 
-__all__ = ["main"]
+# this package
+from create_redirect import create_redirect
+
+__all__ = ("main", )
 
 
 def main() -> int:  # noqa: D103
@@ -47,35 +49,23 @@ def main() -> int:  # noqa: D103
 			)
 
 	args = parser.parse_args()
-	if not args.redirect_url.startswith("http"):
-		url = f"http://{args.redirect_url}"
+
+	redirect_url = args.redirect_url
+
+	if not redirect_url.startswith("http"):
+		url = f"http://{redirect_url}"
 	else:
-		url = args.redirect_url
+		url = redirect_url
 
-	output_file: pathlib.Path = args.output
-	output_file.write_text(
-			dedent(
-					"""\
-	<!DOCTYPE HTML>
-	<html lang="en-GB">
-		<head>
-			<meta charset="UTF-8">
-			<meta http-equiv="refresh" content="1";url='{0}'>
-			<script type="text/javascript">
-				window.location.href = '{0}'
-			</script>
-			<title>Page Redirection</title>
-		</head>
-		<body>
-			<!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-			If you are not redirected automatically, follow <a href='{0}'>this link</a>
-		</body>
-	</html>""".format(url)
-					),
-			encoding="UTF-8",
-			)
+	output = create_redirect(redirect_url)
 
-	print(f"Successfully written file '{str(output_file)}' with url '{url}'")
+	if str(args.output) == '-':
+		print(output)
+	else:
+		output_file: pathlib.Path = args.output
+		output_file.write_text(output, encoding="UTF-8")
+
+		print(f"Successfully wrote file '{str(output_file)}' with url '{url}'")
 
 	return 0
 

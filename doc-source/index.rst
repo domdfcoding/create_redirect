@@ -20,7 +20,7 @@ create_redirect
 		* - Docs
 		  - |docs| |docs_check|
 		* - Tests
-		  - |actions_linux| |actions_windows| |actions_macos|
+		  - |actions_linux| |actions_windows| |actions_macos| |coveralls|
 		* - PyPI
 		  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 		* - Activity
@@ -61,6 +61,9 @@ create_redirect
 	.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/create_redirect/badge.svg
 		:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/create_redirect/
 		:alt: Requirements Status
+
+	.. |coveralls| coveralls-shield::
+		:alt: Coverage
 
 	.. |codefactor| codefactor-shield::
 		:alt: CodeFactor Grade
@@ -122,16 +125,10 @@ Installation
 
 .. end installation
 
-Once installed, ``create_redirect`` can be run with the following syntax:
+Contents
+-----------
 
-.. prompt:: bash
-
-	create_redirect redirect_url [output]
-
-``redirect_url`` is the URL you want the user to be redirected to.
-
-``output``, an optional argument, is the filename for the output file. By default this is "redirect.html" in the current directory.
-
+.. html-section::
 
 .. toctree::
 	:hidden:
@@ -140,10 +137,12 @@ Once installed, ``create_redirect`` can be run with the following syntax:
 
 .. toctree::
 	:maxdepth: 3
-	:caption: Contributing
 
+	api.rst
+	cli.rst
 	contributing
 	Source
+	license
 
 .. sidebar-links::
 	:caption: Links

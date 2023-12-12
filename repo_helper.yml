@@ -1,7 +1,7 @@
 # Configuration for 'repo_helper' (https://github.com/domdfcoding/repo_helper
 ---
 modname: 'create_redirect'
-copyright_years: '2015, 2019-2020'
+copyright_years: '2015, 2019-2020, 2023'
 author: 'Dominic Davis-Foster'
 email: 'dominic@davis-foster.co.uk'
 username: 'domdfcoding'
@@ -10,15 +10,16 @@ license: 'MIT'
 short_desc: 'Python script for creating HTML redirects.'
 
 enable_conda: False
-enable_tests: False
 
 python_versions:
   - 3.6
   - 3.7
   - 3.8
   - 3.9
-  - 3.10-dev
-  - pypy3
+  - "3.10"
+  - "3.11"
+  - "3.12"
+  - "3.13-dev"
 
 classifiers:
   - 'Development Status :: 3 - Alpha'
@@ -31,3 +32,4 @@ console_scripts:
     - 'create-redirect=create_redirect:main'
 
 sphinx_html_theme: furo
+standalone_contrib_guide: true

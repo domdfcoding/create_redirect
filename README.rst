@@ -18,7 +18,7 @@ create_redirect
 	* - Docs
 	  - |docs| |docs_check|
 	* - Tests
-	  - |actions_linux| |actions_windows| |actions_macos|
+	  - |actions_linux| |actions_windows| |actions_macos| |coveralls|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
@@ -59,6 +59,10 @@ create_redirect
 .. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/create_redirect/badge.svg
 	:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/create_redirect/
 	:alt: Requirements Status
+
+.. |coveralls| image:: https://img.shields.io/coveralls/github/domdfcoding/create_redirect/master?logo=coveralls
+	:target: https://coveralls.io/github/domdfcoding/create_redirect?branch=master
+	:alt: Coverage
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/create_redirect?logo=codefactor
 	:target: https://www.codefactor.io/repository/github/domdfcoding/create_redirect
