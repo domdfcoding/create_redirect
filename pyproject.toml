@@ -39,7 +39,7 @@ file = "LICENSE"
 Homepage = "https://github.com/domdfcoding/create_redirect"
 "Issue Tracker" = "https://github.com/domdfcoding/create_redirect/issues"
 "Source Code" = "https://github.com/domdfcoding/create_redirect"
-Documentation = "https://create_redirect.readthedocs.io/en/latest"
+Documentation = "https://create-redirect.readthedocs.io/en/latest"
 
 [project.scripts]
 create_redirect = "create_redirect:main"
@@ -144,7 +144,7 @@ platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
 
 [tool.mypy]
-python_version = "3.6"
+python_version = "3.8"
 namespace_packages = true
 check_untyped_defs = true
 warn_unused_ignores = true
