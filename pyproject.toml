@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "create_redirect"
-version = "0.1.3"
+version = "0.2.0"
 description = "Python script for creating HTML redirects."
 readme = "README.rst"
 requires-python = ">=3.6.1"

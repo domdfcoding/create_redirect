@@ -91,7 +91,7 @@ create_redirect
 .. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/create_redirect
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/create_redirect/v0.1.3
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/create_redirect/v0.2.0
 	:target: https://github.com/domdfcoding/create_redirect/pulse
 	:alt: GitHub commits since tagged version
 
