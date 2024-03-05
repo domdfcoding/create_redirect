@@ -44,5 +44,5 @@ known_third_party = [
     "pytest_timeout",
     "requests",
 ]
-known_first_party = "create_redirect"
+known_first_party = [ "create_redirect",]
 line_length = 115
