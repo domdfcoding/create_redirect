@@ -5,7 +5,7 @@ copyright_years: '2015, 2019-2020, 2023'
 author: 'Dominic Davis-Foster'
 email: 'dominic@davis-foster.co.uk'
 username: 'domdfcoding'
-version: '0.2.0'
+version: '0.2.1'
 license: 'MIT'
 short_desc: 'Python script for creating HTML redirects.'
 
