@@ -19,7 +19,7 @@ from create_redirect.__main__ import main
 				pytest.param("bbc.co.uk/news/", id="path_trailing_slash_no_scheme"),
 				pytest.param("http://bbc.co.uk/news/", id="path_trailing_slash_http"),
 				pytest.param("https://bbc.co.uk/news/", id="path_trailing_slash_https"),
-				]
+				],
 		)
 def test_main(url: str, monkeypatch, capsys, advanced_file_regression: AdvancedFileRegressionFixture):
 	monkeypatch.setattr("sys.argv", ["create_redirect.py", url, '-'])
@@ -43,10 +43,13 @@ def test_main(url: str, monkeypatch, capsys, advanced_file_regression: AdvancedF
 				pytest.param("bbc.co.uk/news/", id="path_trailing_slash_no_scheme"),
 				pytest.param("http://bbc.co.uk/news/", id="path_trailing_slash_http"),
 				pytest.param("https://bbc.co.uk/news/", id="path_trailing_slash_https"),
-				]
+				],
 		)
 def test_main_to_file(
-		tmp_pathplus: PathPlus, url: str, monkeypatch, advanced_file_regression: AdvancedFileRegressionFixture
+		tmp_pathplus: PathPlus,
+		url: str,
+		monkeypatch,
+		advanced_file_regression: AdvancedFileRegressionFixture,
 		):
 	with in_directory(tmp_pathplus):
 		monkeypatch.setattr("sys.argv", ["create_redirect.py", url, "index.html"])
@@ -66,10 +69,13 @@ def test_main_to_file(
 				pytest.param("bbc.co.uk/news/", id="path_trailing_slash_no_scheme"),
 				pytest.param("http://bbc.co.uk/news/", id="path_trailing_slash_http"),
 				pytest.param("https://bbc.co.uk/news/", id="path_trailing_slash_https"),
-				]
+				],
 		)
 def test_main_to_file_default(
-		tmp_pathplus: PathPlus, url: str, monkeypatch, advanced_file_regression: AdvancedFileRegressionFixture
+		tmp_pathplus: PathPlus,
+		url: str,
+		monkeypatch,
+		advanced_file_regression: AdvancedFileRegressionFixture,
 		):
 	with in_directory(tmp_pathplus):
 		monkeypatch.setattr("sys.argv", ["create_redirect.py", url])
