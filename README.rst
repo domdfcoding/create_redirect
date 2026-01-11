@@ -99,11 +99,11 @@ create_redirect
 	:target: https://github.com/domdfcoding/create_redirect/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2025
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/create_redirect
-	:target: https://pypi.org/project/create_redirect/
+	:target: https://pypistats.org/packages/create_redirect
 	:alt: PyPI - Downloads
 
 .. end shields

@@ -45,7 +45,11 @@ def main() -> int:  # noqa: D103
 	parser = argparse.ArgumentParser(description="Generate HTML Redirect File.")
 	parser.add_argument("redirect_url", help="The URL to redirect to")
 	parser.add_argument(
-			"output", nargs='?', default="redirect.html", help="Path of the file to create", type=pathlib.Path
+			"output",
+			nargs='?',
+			default="redirect.html",
+			help="Path of the file to create",
+			type=pathlib.Path,
 			)
 
 	args = parser.parse_args()
