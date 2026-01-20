@@ -119,6 +119,6 @@ To install with ``pip``:
 
 .. code-block:: bash
 
-	$ python -m pip install create_redirect
+	$ python -m pip install create-redirect
 
 .. end installation

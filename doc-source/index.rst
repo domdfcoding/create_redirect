@@ -121,6 +121,7 @@ Installation
 
 .. installation:: create_redirect
 	:pypi:
+	:pypi-name: create-redirect
 	:github:
 
 .. end installation
