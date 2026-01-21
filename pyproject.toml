@@ -3,7 +3,7 @@ requires = [ "setuptools!=61.*,<=67.1.0,>=40.6.0", "wheel>=0.34.2",]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "create_redirect"
+name = "create-redirect"
 version = "0.2.1"
 description = "Python script for creating HTML redirects."
 readme = "README.rst"
@@ -141,6 +141,7 @@ python-versions = [ "3.7", "3.8", "3.9", "3.10", "3.11", "3.12", "3.13",]
 python-implementations = [ "CPython",]
 platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
+package = "create_redirect"
 
 [tool.mypy]
 python_version = "3.9"

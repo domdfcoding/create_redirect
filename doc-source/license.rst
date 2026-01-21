@@ -7,4 +7,4 @@ License
 .. license-info:: MIT
 
 .. license::
-	:py: create_redirect
+	:py: create-redirect

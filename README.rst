@@ -68,20 +68,20 @@ create_redirect
 	:target: https://www.codefactor.io/repository/github/domdfcoding/create_redirect
 	:alt: CodeFactor Grade
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/create_redirect
-	:target: https://pypi.org/project/create_redirect/
+.. |pypi-version| image:: https://img.shields.io/pypi/v/create-redirect
+	:target: https://pypi.org/project/create-redirect/
 	:alt: PyPI - Package Version
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/create_redirect?logo=python&logoColor=white
-	:target: https://pypi.org/project/create_redirect/
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/create-redirect?logo=python&logoColor=white
+	:target: https://pypi.org/project/create-redirect/
 	:alt: PyPI - Supported Python Versions
 
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/create_redirect
-	:target: https://pypi.org/project/create_redirect/
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/create-redirect
+	:target: https://pypi.org/project/create-redirect/
 	:alt: PyPI - Supported Implementations
 
-.. |wheel| image:: https://img.shields.io/pypi/wheel/create_redirect
-	:target: https://pypi.org/project/create_redirect/
+.. |wheel| image:: https://img.shields.io/pypi/wheel/create-redirect
+	:target: https://pypi.org/project/create-redirect/
 	:alt: PyPI - Wheel
 
 .. |license| image:: https://img.shields.io/github/license/domdfcoding/create_redirect
@@ -102,8 +102,8 @@ create_redirect
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
-.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/create_redirect
-	:target: https://pypistats.org/packages/create_redirect
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/create-redirect
+	:target: https://pypistats.org/packages/create-redirect
 	:alt: PyPI - Downloads
 
 .. end shields
