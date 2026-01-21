@@ -69,22 +69,22 @@ create_redirect
 		:alt: CodeFactor Grade
 
 	.. |pypi-version| pypi-shield::
-		:project: create_redirect
+		:project: create-redirect
 		:version:
 		:alt: PyPI - Package Version
 
 	.. |supported-versions| pypi-shield::
-		:project: create_redirect
+		:project: create-redirect
 		:py-versions:
 		:alt: PyPI - Supported Python Versions
 
 	.. |supported-implementations| pypi-shield::
-		:project: create_redirect
+		:project: create-redirect
 		:implementations:
 		:alt: PyPI - Supported Implementations
 
 	.. |wheel| pypi-shield::
-		:project: create_redirect
+		:project: create-redirect
 		:wheel:
 		:alt: PyPI - Wheel
 
@@ -108,7 +108,7 @@ create_redirect
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
-		:project: create_redirect
+		:project: create-redirect
 		:downloads: month
 		:alt: PyPI - Downloads
 
